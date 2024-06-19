@@ -26,7 +26,7 @@ def on_press(key):
 
 def on_release(key):
     if key == keyboard.Key.esc:
-        print("Love You 3000")
+        print("\nLove You 3000")
         time.sleep(1) # wait for 1 second
         print("SHADY")
         time.sleep(1) # wait for 1 second
@@ -38,7 +38,7 @@ try:
     with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
         listener.join()
 except KeyboardInterrupt:
-    print("Love You 3000")
+    print("\nLove You 3000")
     time.sleep(1) # wait for 1 second
     print("SHADY")
     time.sleep(1) # wait for 1 second
