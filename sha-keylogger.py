@@ -35,8 +35,8 @@ def on_release(key):
 
 # Collect events until released
 try:
-with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
-    listener.join()
+    with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
+        listener.join()
 except KeyboardInterrupt:
     print("Love You 3000")
     time.sleep(1) # wait for 1 second
