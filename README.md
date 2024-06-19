@@ -10,4 +10,4 @@
 3. List the Items: `ls`
 4. Requirements: `pip install -r requirements.txt`
 5. Run It: `python sha-keylogger.py`
-6. Usage: Type some Keys on any platform like notepad or search some queries etc., then press `Control          (ctrl) + c` for Keyboard Interrupt i.e To Finish or End the Tool.
+6. Usage: Type some Keys on any platform like notepad or search some queries etc., then press `Control (ctrl) + c` for Keyboard Interrupt i.e To Finish or End the Tool.
